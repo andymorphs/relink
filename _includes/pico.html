@@ -1,0 +1,32 @@
+<div class="padding-x4">
+<div class="wrapper">
+
+  <div class="flex">
+    <div class="size-30 flex padding-right">
+    <!-- Add this input field where users can type their search query -->
+    <input type="text" id="searchInput" placeholder="Search">
+  </div>
+    <div class="size-30 padding-left padding-right"> 
+    <select id="sortDropdown">
+      <option value="newest-date">Sort by Date (Latest)</option>
+      <option value="date">Sort by Date (Oldest)</option>
+      <option value="az">Sort by A-Z</option>
+      <option value="za">Sort by Z-A</option>
+      <option value="price-asc">Sort by Price (Low)</option>
+      <option value="price-desc">Sort by Price (High)</option>
+    </select>
+  </div>
+    <div class="size-30 padding-left">
+    <select id="filterDropdown">
+      <option value="">Filter by Types</option>
+    </select>
+  </div>
+  </div>
+  <div>
+    <div class="result-count margin-top"><p>Total Results: <span id="totalResultsCount">0 </span><span class="space"> | Filtered: </span><span id="filteredResultsCount">0 </span></p></div>
+  </div>
+
+<div id="output">
+</div>
+</div>
+
