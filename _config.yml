@@ -21,8 +21,8 @@
 title: AndyMorphs
 email: andymorphs@gmail.com
 description: Hi I'm AndyMorphs! I make youTube videos.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://link.andymorphs.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/relink/" # the subpath of your site, e.g. /blog
+url: "https://andymorphs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AndyMorphs
 youtube_username:  AndyMorphs
 
